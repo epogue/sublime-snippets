@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+should ${1:"${2:something}" do
+  ${0}
+end}
+]]></content>
+  <tabTrigger>should</tabTrigger>
+  <scope>meta.rails.unit_test, meta.rails.functional_test</scope>
+</snippet>
